@@ -26,6 +26,7 @@ runtime:
 relationships:
     database: "mysql:mysql"
     redis: "redis:redis"
+    elasticsearch: "search:elasticsearch"
 
 web:
     locations:
